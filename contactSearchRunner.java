@@ -65,12 +65,23 @@ class contactSearchRunner{
 		System.out.println(n15);
 		
 		
+		String[] m1 = ContactSearch.searchByLastName(kapoor);
+		for (String i : m1) {
+			System.out.println(i);
 		}
-			
+
+		String[] m2 = ContactSearch.searchByLastName(sharma);
+		for (String j : m2) {
+			System.out.println(j);
+		}
+
+		String[] m3 = ContactSearch.searchByLastName(shetty);
+		for (String k : m3) {
+			System.out.println(k);
+		}
 	}
-	
-	
-	
-	
-	
 }
+	
+	
+	
+	

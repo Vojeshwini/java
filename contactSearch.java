@@ -155,5 +155,35 @@ class ContactSearch{
 		}
 		
 		
-		
+		static String[] searchByLastName(String[] name){
+			String[] kapoor={"nithya kapoor","lavanya kapoor","Riya kapoor","jeeva kapoor","disha kapoor"};
+			String[] sharma={"rohith sharma","roy sharma","deeshith sharma","roshan sharma","lohith sharma"};
+			String[] shetty={"veera shetty","lavanya shetty","diya shetty","navya shetty","roopa shetty"};
+			String[] novalue={"no message"};
+			if(name ==kapoor){
+				
+					return kapoor;
+			}
+			else if(name==sharma){
+					
+						return sharma;
+						
+			}
+			else if(name==shetty){
+						
+							return shetty;
+						
+					}
+					else{
+							return novalue;
+					}			
+				
+			}
 }
+				
+			
+			
+		
+		
+		
+		
